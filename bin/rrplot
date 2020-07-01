@@ -65,4 +65,4 @@ elif args.datatype=='boss':
 zscan, zfit = redrock.results.read_zscan(args.rrfile)
 
 #- Plot
-p = redrock.plotspec.PlotSpec(targets, templates, zscan, zfit, archetypes=archetypes)
+redrock.plotspec.PlotSpec(targets, templates, zscan, zfit, archetypes=archetypes)
